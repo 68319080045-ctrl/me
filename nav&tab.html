@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Local Bootstrap Project</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="Blue and White Playful Illustrative Math Class Google Classroom Header.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="Blue Navy Colorful Welcome Learners Google Classroom Header.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="Green Illustrative Welcome to English Class Google Classroom Header.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <img src="logo.png" class="z-1 position-absolute bottom-0" height="100">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav nav-tabs me-auto" id="myTab" role="tablist" style="margin-left: 430px;">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+              type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+              type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">คภ 4/1</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+              type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">คภ 4/2</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <!-- <button class="nav-link" id="disabled-tab" data-bs-toggle="tab"
+                            data-bs-target="#disabled-tab-pane" type="button" role="tab"
+                            aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button> -->
+          </li>
+        </ul>
+        <ul class="nav nav-itabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-target="#modalLogin" data-bs-toggle="modal">Login</a>
+          </li>
+          <li class="nav-item"></li>
+          <a class="nav-link active" data-bs-target="#modalRe" data-bs-toggle="modal">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      home</div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="container">
+        <!-- Person 1 -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080001.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080001</h5>
+                <p class="card-text">นายกมล กาญจนเกตุ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080002.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080002</h5>
+                <p class="card-text">นายกฤษฎา กล่อมประเสริฐ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080003.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080003</h5>
+                <p class="card-text">นายกษิรา ทรัพย์ประเสริฐ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080004.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080004</h5>
+                <p class="card-text">นายก้องภพ นิ่มครุธ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080005.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080005</h5>
+                <p class="card-text">นายกันตภณ เกิดทวี</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080006.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080006</h5>
+                <p class="card-text">นายกิตติพงศ์ จันทชิต</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080007.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080007</h5>
+                <p class="card-text">นายกิตติพัฒน์ สมเจริญ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080008.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080008</h5>
+                <p class="card-text">นายจตุพงศ์ พวงไต้</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080009.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080009</h5>
+                <p class="card-text">นายจักรวรรดิ อินทรา</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080010.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080010</h5>
+                <p class="card-text">นางสาวจิราภา คำภิเดช</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080011.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080011</h5>
+                <p class="card-text">นายเจษฎากร แคนเภา</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080012.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080012</h5>
+                <p class="card-text">นายชลากร สุนทรนันท์</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080013.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080013</h5>
+                <p class="card-text">นายฑีฆายุ ไกรรอด</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080014.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080014</h5>
+                <p class="card-text">นายณัฐพงศ์ ศาสนา</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080015.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080015</h5>
+                <p class="card-text">นายณัฐพงษ์ ร่มโพธิ์ภักดิ์</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080016.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080016</h5>
+                <p class="card-text">นายณัฐภูมิ ทองดี</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080017.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080017</h5>
+                <p class="card-text">นายดนุพร บรรพต</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080018.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080018</h5>
+                <p class="card-text">นายติณณภพ อินทร์เจริญ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080019.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080019</h5>
+                <p class="card-text">นายธนากร ศิริจันทร์</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080020.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080020</h5>
+                <p class="card-text">นายธีรศักดิ์ เบ็ญจรงค์</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080021.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080021</h5>
+                <p class="card-text">นายธีระพัฒน์ นิเลิศรัมย์</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080022.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080022</h5>
+                <p class="card-text">นายนันทวัฒน์ แจ้งน้อย</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080023.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080023</h5>
+                <p class="card-text">นายนันทิพัฒน์ ชัยพานิชย์</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+      <div class="container">
+        <!-- Person 2 -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080024.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080024</h5>
+                <p class="card-text">นายบัณทัต ประสพสุข</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080025.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080025</h5>
+                <p class="card-text">นายปฐวี ชูสุข</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080026.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080026</h5>
+                <p class="card-text">นายผาสุข เหลืองทอง</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080027.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080027</h5>
+                <p class="card-text">นายพงศธร วงค์ภา</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080028.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080028</h5>
+                <p class="card-text">นายพชร โชตินันทกุล</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080029.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080029</h5>
+                <p class="card-text">นายพิชญุตม์ ทองเย็น</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080030.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080030</h5>
+                <p class="card-text">นายพุฒิพงศ์ มากมณี</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080031.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080031</h5>
+                <p class="card-text">นายพุฒิพงษ์ เย็นผาสุข</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080032.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080032</h5>
+                <p class="card-text">นายภูตะวัน ตู้ภูมิ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080033.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080033</h5>
+                <p class="card-text">นายมานะ ฉายสังข์</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080034.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080034</h5>
+                <p class="card-text">นายวริทธิ์ ผลเจริญสมบูรณ์</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080035.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080035</h5>
+                <p class="card-text">นายวีรวัฒน์ แก้วมุงคุณ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080036.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080036</h5>
+                <p class="card-text">นายศักภาวุฒ เกิดมาลัย</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080037.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080037</h5>
+                <p class="card-text">นายศิวกร ศรีพรหมษา</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080038.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080038</h5>
+                <p class="card-text">นายศิวกรณ์ เศรษฐีธัญหาร</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080039.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080039</h5>
+                <p class="card-text">นายศิวัฒม์ ศรีพิลาศ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080040.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080040</h5>
+                <p class="card-text">นายศิวัธ แก้วมี</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080041.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080041</h5>
+                <p class="card-text">นายศุภวิชญ์ สีแสด.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080042.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080042</h5>
+                <p class="card-text">นายสิรภัทร อาวาศ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080043.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080043</h5>
+                <p class="card-text">นายสุทราพงศ์ เศษรักษา</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080044.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080044</h5>
+                <p class="card-text">นายเหมรัตน์ มะลิทอง</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://rms.tatc.ac.th/image.php?src=files/importpicstd/01/68319080045.jpg&x=200&f=0"
+                class="card-img-top rounded-circle p-5" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">68319080045</h5>
+                <p class="card-text">นางสาวอนุตตรีย์ บัวเขียว</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+            disabled</div> -->
+  </div>
+
+  <!-- Modal Login -->
+  <div class="modal fade" id="modalLogin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-12">
+                <div class="text-center p-3">
+                  <img src="logo.gif" class="img-fluid md-4" alt="logo" style="width: 100px;">
+                </div>
+                <form action="">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <div class="d-grid mt-4">
+                    <button class="btn btn-primary btn-lg" style="background-color: rgb(0, 201, 167);">Login</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Regis -->
+  <div class="modal fade" id="modalRe" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-30">
+                <div class="bg-white p-5 rounded">
+                  <h1 class="mb-3" style="color: #00b9d1;">Registration</h1>
+                  <form action="">
+                    <div class="row">
+                      <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <label class="form-label">First name</label>
+                        <input type="text" class="form-control" placeholder="" aria-label="First name"
+                          style="border-color: #00b9d1;">
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label class="form-label">Last name</label>
+                        <input type="text" class="form-control" placeholder="" aria-label="Last name"
+                          style="border-color: #00b9d1;">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <label class="form-label">Email</label>
+                        <input type="text" class="form-control" placeholder="" aria-label="Email"
+                          style="border-color: #00cad1;">
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" placeholder="" aria-label="Phone Number"
+                          style="border-color: #00cad1;">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="" aria-label="Password"
+                          style="border-color: #0096d1;">
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label class="form-label">Comfirm Password</label>
+                        <input type="password" class="form-control" placeholder="" aria-label="Comfirm Password"
+                          style="border-color: #0096d1;">
+                      </div>
+                    </div>
+                    <h2 class="p-2 gradient-text">Gender</h2>
+                    <div class="Radios p-">
+                      <div class="form-check form-check-inline mt-3 mb-3">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                        <label class="form-check-label" for="radioDefault1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline mb-2">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                        <label class="form-check-label" for="radioDefault2">
+                          Female
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline mb-2">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3" checked>
+                        <label class="form-check-label" for="radioDefault3">
+                          Pefer not to say
+                        </label>
+                      </div>
+                    </div>
+                    <div class="d-grid mt-4">
+                      <button class="btn btn-primary btn-lg"
+                        style="background: linear-gradient(to right, #029aff, #0049d1);">Register</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
